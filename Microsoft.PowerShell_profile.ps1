@@ -8,7 +8,7 @@ $GitPromptSettings.DefaultPromptAbbreviateHomeDirectory = $true
 $GitPromptSettings.DefaultForegroundColor = [ConsoleColor]::Green
 
 New-Alias mk minikube
-New-Alias kk C:\Users\brwals\bin\kubectl.1.7.9.exe
+New-Alias kk kubectl
 New-Alias g git
 New-Alias dk docker
 New-Alias grep findstr
