@@ -10,6 +10,7 @@ mv config.fish ~/.config/fish
 
 echo "Setting Fish as default shell..."
 chsh -s /usr/bin/fish
+echo "exec fish" >> ~/.bashrc
 
 echo "Configuring SSH"
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/github

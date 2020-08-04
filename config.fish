@@ -1,5 +1,6 @@
 set -g -x fish_greeting ""
 
+alias profile="vim ~/.config/fish/config.fish"
 alias src="source ~/.config/fish/config.fish"
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
