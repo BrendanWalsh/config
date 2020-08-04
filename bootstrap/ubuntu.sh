@@ -17,6 +17,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/github
 
 echo "Installing standard packages"
 sudo apt-get install -y --no-install-recommends vim git
+sudo snap install --classic code
 
 echo "Restarting shell"
 exec fish
